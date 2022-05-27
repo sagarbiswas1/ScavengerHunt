@@ -4,7 +4,7 @@ picoCTF2021 Scavenger Hunt
 **Let this script find the flag for you.**
 
 **Solutions** :\
-**Flag 1**
+**Part 1**
 
 hit `CTRL + U` on the index.html page to view the source.
 
@@ -51,13 +51,13 @@ We can see the first part of the flag in the comment.
 ```html
 <!-- Here's the first part of the flag: picoCTF{t -->
 ```
-**Flag 2**\
+**Part 2**\
 We got the second part in the css file.
 
 ```css
 /* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
 ```
-**Flag 3**\
+**Part 3**\
 Similarly, let's check the javascript file.
 
 `/* How can I keep Google from indexing my website? */`\
@@ -71,18 +71,20 @@ Disallow: /index.html
 # Part 3: t_0f_pl4c
 # I think this is an apache server... can you Access the next flag?
 ```
-**Flag 4**\
+**Part 4**\
 Well, an `.htaccess` file is a directory-level configuration file supported by several web servers, used for configuration of website-access issues, such as URL redirection, URL shortening, access control, and more.
+
 The fourth part is in the `.htaccess` file.
 ```
 # Part 4: 3s_2_lO0k
 # I love making websites on my Mac, I can Store a lot of information there.
 ```
-**Flag 5**\
+**Part 5**\
 The word 'srore' is mentioned in the hint.
 On Mac OS there is a auto created file called .DS_Store
 It's stores system configuration details.we can access that
-We got our fifth part
+
+We got our fifth part.
 ```
 Congrats! You completed the scavenger hunt. Part 5: _7a46d25d}
 ```
