@@ -1,5 +1,5 @@
 # ScavengerHunt
-picoCTF2021 Scavenger Hunt
+picoCTF 2021 Scavenger Hunt
 
 **Let this script find the flag for you.**
 
