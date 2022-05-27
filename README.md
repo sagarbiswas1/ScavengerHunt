@@ -52,7 +52,7 @@ We can see the first part of the flag in the comment.
 <!-- Here's the first part of the flag: picoCTF{t -->
 ```
 **Flag 2**\
-We got the second flag in the css file.
+We got the second part in the css file.
 
 ```css
 /* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
@@ -64,17 +64,25 @@ Similarly, let's check the javascript file.
 There is no flag but we got a hint.
 The common way to Stop Google from indexing is disallow those on the robots.txt file.
 
-We got our third flag and a hint at robots.txt
+We got our third part and a hint at robots.txt
 ```
 User-agent: *
 Disallow: /index.html
 # Part 3: t_0f_pl4c
 # I think this is an apache server... can you Access the next flag?
 ```
-**Flag 4**
+**Flag 4**\
 Well, an `.htaccess` file is a directory-level configuration file supported by several web servers, used for configuration of website-access issues, such as URL redirection, URL shortening, access control, and more.
-The fourth flag is in the `.htaccess` file.
+The fourth part is in the `.htaccess` file.
 ```
 # Part 4: 3s_2_lO0k
 # I love making websites on my Mac, I can Store a lot of information there.
+```
+**Flag 5**\
+The word 'srore' is mentioned in the hint.
+On Mac OS there is a auto created file called .DS_Store
+It's stores system configuration details.we can access that
+We got our fifth part
+```
+Congrats! You completed the scavenger hunt. Part 5: _7a46d25d}
 ```
