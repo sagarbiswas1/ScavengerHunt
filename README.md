@@ -62,7 +62,7 @@ Similarly, let's check the javascript file.
 
 `/* How can I keep Google from indexing my website? */`\
 There is no flag but we got a hint.
-The common way to Stop Google from indexing is disallow those on the robots.txt file.
+The common way to Stop Google from indexing is disallow those in the robots.txt file.
 
 We got our third part and a hint at robots.txt
 ```
